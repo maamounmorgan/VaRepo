@@ -11,7 +11,7 @@ namespace Agency.Models
     {
         public int Id { get; set; }
         [Required]
-        [DisplayName(" الإسم")]
+        [DisplayName("  الإسمبالكامل ")]
         public string Name { get; set; }
         
         [DisplayName(" رقم الهاتف")]
